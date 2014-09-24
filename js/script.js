@@ -16,7 +16,7 @@ var CELL_MODEL = {
 	section: 0,
 	error: false
 };
-var TRY_LIMIT = 6000;
+var TRY_LIMIT = 10000;
 var grid;
 var rowsValues;
 var colsValues;
@@ -405,9 +405,7 @@ function autoResolve() {
 		endTime = new Date().getTime();
 		elapsedTime = (endTime - startTime);
 		if (resolvedCount < (ROWS * COLS)) {
-			if (confirm("No final solution found!" + "\n" + "Do you want to see the partial solution?")) {
-				fillGrid();
-			}
+			alert("No final solution found this time!");
 		}
 		else {
 			fillGrid();

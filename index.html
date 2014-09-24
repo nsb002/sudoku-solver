@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" id="vp" content="user-scalable=no, width=320">
+		<!--<meta name="viewport" id="vp" content="user-scalable=no" media="(device-height: 568px)">
+		<meta name="apple-mobile-web-app-capable" content="yes"/>-->
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon-iphone.png" /> 
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" /> 
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone4.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad3.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="application/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="application/javascript" src="js/jquery.json-2.3.min.js"></script>
+		<script type="application/javascript" src="js/script.js"></script>
+		<title>Sudoku Solver</title>
+	</head>
+	<body>
+		<header>
+			<h1>Sudoku Solver</h1>
+		</header>
+		<div id="content"></div>
+		<div id="divNbrOfTry" style="display:none;">Number of try : <span id="nbrOfTry"></span></div>
+		<div id="divElapsedTime" style="display:none;">Elapsed time : <span id="elapsedTime"></span> ms</div>
+		<div id="divButtons">
+			<button id="cmdClearGrid">Clear Grid</button>
+			<button id="cmdAutoResolve">Solve Grid</button>
+		</div>
+	</body>
+</html>

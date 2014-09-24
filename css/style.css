@@ -1,0 +1,48 @@
+body {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-color: lightgray;
+}
+header h1 {
+	text-align: center;
+	font-size: 175%;
+	font-weight: bold;
+}
+#grid {
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+}
+#grid td input {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	-webkit-appearance: none;
+    border-radius: 0;
+}
+#grid td input.error {
+	border: 1px solid red;
+	color: red;
+}
+#divNbrOfTry {
+	margin: 0 auto;
+	padding-top: 5px;
+	text-align: center;
+}
+#divElapsedTime {
+	margin: 0 auto;
+	padding-top: 5px;
+	text-align: center;
+}
+#divButtons {
+	margin: 0 auto;
+	padding: 5px 0;
+	text-align: center;
+}
+#divButtons button {
+	width: 100px;
+	height: 40px;
+}

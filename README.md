@@ -12,7 +12,7 @@
     * It can be added to your phone's home page
     * It doesn't need an internet connection once "installed"
 
-### Is that fun? ###
+### Is this fun? ###
 * To have some fun, try to solve the [World's hardest sudoku](http://www.telegraph.co.uk/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html)
     * For the lazy ones:
         * Open up a JavaScript console in your browser, paste that and hit `Solve Grid`
